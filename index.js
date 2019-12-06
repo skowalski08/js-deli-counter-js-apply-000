@@ -5,11 +5,13 @@ function takeANumber(current, newCus) {
   return message;
 }
 
+var num = 0;
+
 function takeANumber(current) {
-  var num = current.length + ;
   var message = `Welcome, you have ticket number ${num}`;
-  
-  return message;
+    num++
+    current.push(num);
+  return `Welcome, you have ticket number ${num}`;
 }
 
 
