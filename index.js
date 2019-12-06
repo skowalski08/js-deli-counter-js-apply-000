@@ -8,7 +8,6 @@ function takeANumber(current, newCus) {
 var num = 0;
 
 function takeANumber(current) {
-  var message = `Welcome, you have ticket number ${num}`;
     num++
     current.push(num);
   return `Welcome, you have ticket number ${num}`;
