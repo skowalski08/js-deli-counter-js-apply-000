@@ -5,6 +5,16 @@ function takeANumber(current, newCus) {
   return message;
 }
 
+function takeANumber(current) {
+  var num = current.length + ;
+  var message = `Welcome, you have ticket number ${num}`;
+  
+  return message;
+}
+
+
+
+
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length === 0) {
     return 'There is nobody waiting to be served!';
